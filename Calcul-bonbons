@@ -1,8 +1,6 @@
-Debut calculBonbons (reel argent, reel prix, entier nbBonbons)
+Debut calculBonbons (reel argent, reel prix)
 
-calculArgent = argent - prix 
 nbBonbons = 0 
-
 
 SI argent < = a 0 
 
@@ -14,10 +12,9 @@ SI prix est < = a 0
   
 SINON
 
-    TANT QUE argent > = prix 
-      
-      nbBonbons = nbBonbons + 1 
-      
+    TANT QUE Argent > = prix 
+      Argent = argent - prix 
+      nbBonbons = nbBonbons + 1
     FIN TANT QUE 
     
 FIN SI 
