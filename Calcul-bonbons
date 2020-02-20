@@ -12,8 +12,8 @@ SI prix est < = a 0
   
 SINON
 
-    TANT QUE Argent > = prix 
-      Argent = argent - prix 
+    TANT QUE argent > = prix 
+      argent = argent - prix 
       nbBonbons = nbBonbons + 1
     FIN TANT QUE 
     
