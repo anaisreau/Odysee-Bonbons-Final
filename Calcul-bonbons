@@ -1,0 +1,28 @@
+Debut calculBonbons (reel argent, reel prix, entier nbBonbons)
+
+calculArgent = argent - prix 
+nbBonbons = 0 
+
+
+SI argent < = a 0 
+
+  Boite de dialogue ("Tu ne peux pas acheter de bonbons sans argent !") 
+  
+SI prix est < = a 0 
+
+  Boite de dialogue ("Les bonbons sont gratuits ! tu peux te servir !") 
+  
+SINON
+
+    TANT QUE argent > = prix 
+      
+      nbBonbons = nbBonbons + 1 
+      
+    FIN TANT QUE 
+    
+FIN SI 
+FIN SI 
+    
+RETOURNER nbBonbons 
+
+FIN calculBonbons
